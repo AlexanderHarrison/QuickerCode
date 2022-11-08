@@ -1,0 +1,124 @@
+$backgroundcolor: #1d1f21;
+$mainrollcolor: #282a2e;
+
+$maintextcolor: #c5c8c6;
+$backgroundhighlightcolor: #373b41;
+$highlightcolor: #f0c674;
+$lowlightcolor: #969896;
+//$linktextcolor: #f0c674;
+$linktextcolor: #de935f;
+$headertextcolor: #c5c8c6;
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+aside {
+    display: inline-block;
+    background-color: $mainrollcolor;
+    border-left: 5px solid $linktextcolor;
+    padding: 10px 10px 10px 15px;
+    margin-left: -20px;
+}
+
+html {
+    background-color: $backgroundcolor;
+    font-family: 'Roboto', sans-serif;
+    line-height: 2.0;
+    font-size: 18px;
+}
+
+body {
+    margin: 0 0 0 0;
+}
+
+.section {
+    color: $maintextcolor;
+}
+
+.mainroll {
+    width: 50vw;
+    margin: -20px 25% 0px 15%;
+}
+
+.blogcontent {
+    //border-left: 1px solid $linktextcolor;
+    border-top: 1px solid $linktextcolor;
+    //border-top-left-radius: 20px;
+    padding-left: 20px;
+}
+
+.indexdescription {
+    margin-top: 0px;
+    margin-left: 20px;
+}
+
+.indextitle {
+    color: $linktextcolor;
+    text-decoration: none;
+}
+
+.subtitle {
+    margin-top: 5px;
+    padding-top: 0;
+    color: $lowlightcolor;
+}
+
+hr {
+    color: $highlightcolor;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.title {
+    margin-bottom: 0;
+    padding: 30px 0px 0px 20px;
+}
+
+.header {
+    padding: 15px 20px 15px 20px;
+    background-color: $mainrollcolor;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.headerlink {
+    color: $linktextcolor;
+    text-decoration: none;
+    margin-right: 20px
+}
+
+img {
+    max-width: 100%;
+    max-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+pre {
+    padding: 1rem;
+    overflow: auto;
+    line-height: 1.5;
+    font-size: 15px;
+}
+// The line numbers already provide some kind of left/right padding
+pre[data-linenos] {
+    padding: 1rem 0;
+}
+pre table td {
+    padding: 0;
+}
+// The line number cells
+pre table td:nth-of-type(1) {
+    text-align: center;
+    user-select: none;
+}
+pre mark {
+    // If you want your highlights to take the full width.
+    display: block;
+    // The default background colour of a mark is bright yellow
+    background-color: rgba(254, 252, 232, 0.9);
+}
+pre table {
+    width: 100%;
+    border-collapse: collapse;
+}
