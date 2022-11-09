@@ -11,12 +11,19 @@ $headertextcolor: #c5c8c6;
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+h1, h2, h3 { padding-top: 0px;
+    margin-bottom: 0px;
+}
+
+p {
+    margin-top: 10px;
+}
+
 aside {
     display: inline-block;
     background-color: $mainrollcolor;
     border-left: 5px solid $linktextcolor;
     padding: 10px 10px 10px 15px;
-    margin-left: -20px;
 }
 
 html {
@@ -53,16 +60,12 @@ body {
 
 .indextitle {
     color: $linktextcolor;
-    text-decoration: none;
 }
 
 .subtitle {
     margin-top: 5px;
     padding-top: 0;
-    color: $lowlightcolor;
-}
-
-hr {
+    color: $lowlightcolor; } hr {
     color: $highlightcolor;
     margin-bottom: 0px;
     margin-top: 0px;
